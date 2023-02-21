@@ -31,7 +31,7 @@ CREATE TABLE `binders` (
   `ID` int(11) NOT NULL,
   `name` text NOT NULL,
   `description` text NOT NULL,
-  `keywords﻿` text NOT NULL,
+  `keywords` text NOT NULL,
   `created` timestamp NULL DEFAULT NULL,
   `modified` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
