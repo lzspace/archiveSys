@@ -1,0 +1,17 @@
+how to initialize
+
+
+1. create an folder an clone the git repo:
+- git clone https://github.com/lzspace/archiveSys.git
+(ONLY NEED ONCE!)
+
+2. then make sure, you have the newest version 
+- git pull https://github.com/lzspace/archiveSys.git
+
+3. then build docker image 
+docker build . -t archive
+(ONLY NEED ONCE!)
+
+4. docker run -d -p 8080:80 archive
+
+5. kill the container after your done - Docker UI or docker kill
