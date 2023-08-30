@@ -10,7 +10,21 @@
 </head>
 
 <body>
-   <span>Es funktioniert!</span>
+    <form action="mysql/server.php" method="post">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" class="form-control" id="name" name="name">
+        </div>
+        <div class="form-group">
+            <label for="description">Beschreibung:</label>
+            <textarea class="form-control" id="description" name="description"></textarea>
+        </div>
+        <div class="form-group">
+            <label for="keywords">Keywords:</label>
+            <input type="text" class="form-control" id="keywords" name="keywords">
+        </div>
+        <input type="submit" class="btn btn-primary" value="Submit">
+    </form>
 </body>
 
 </html>
